@@ -1,0 +1,5 @@
+[
+  { "id": "tipo-A", "nombre": "Furgoneta", "volumen": 30 },
+  { "id": "tipo-B", "nombre": "Camiones", "volumen": 45 },
+  { "id": "tipo-C", "nombre": "SUV 7 plazas", "volumen": 70 }
+]

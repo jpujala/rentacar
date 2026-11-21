@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": "empresa-1",
+    "nombre": "Rent a Car Madrid SL",
+    "cif": "B12345678",
+    "contacto": "Juan García",
+    "telefono": "600123456",
+    "email": "reservas@madridrentacar.es",
+    "direccion": "Calle Mayor 10, Madrid"
+  },
+  {
+    "id": "empresa-2",
+    "nombre": "Vehículos del Sur SL",
+    "cif": "B87654321",
+    "contacto": "María López",
+    "telefono": "600987654",
+    "email": "info@vehiculosdelsur.es",
+    "direccion": "Avenida Andalucía 25, Sevilla"
+  },
+  {
+    "id": "empresa-3",
+    "nombre": "Auto Renting Levante",
+    "cif": "B11223344",
+    "contacto": "Pedro Sánchez",
+    "telefono": "611223344",
+    "email": "renting@levante.es",
+    "direccion": "Calle Colón 15, Valencia"
+  },
+    {
+    "id": "empresa-4",
+    "nombre": "Alquiler de caminoes",
+    "cif": "B11223344",
+    "contacto": "Juan del Monte",
+    "telefono": "611223344",
+    "email": "renting@levante.es",
+    "direccion": "Calle Muntaner, BCN"
+  }
+]

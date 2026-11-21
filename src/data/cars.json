@@ -1,0 +1,6 @@
+[
+  { "id": "coche-1", "tipo": "tipo-A", "matricula": "1234-ABC", "descripcion": "Seat Ibiza blanco", "notas": "aut" },
+  { "id": "coche-2", "tipo": "tipo-A", "matricula": "5678-DEF", "descripcion": "Renault Clio gris", "notas": "A+V" },
+  { "id": "coche-3", "tipo": "tipo-B", "matricula": "9012-GHI", "descripcion": "VW Touran — parachoques delantero", "notas": "A+V" },
+  { "id": "coche-4", "tipo": "tipo-C", "matricula": "3456-JKL", "descripcion": "Kia Sorento negro", "notas": "man" }
+]

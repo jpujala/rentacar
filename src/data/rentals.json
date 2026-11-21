@@ -1,0 +1,14 @@
+
+[
+  {
+    "resId": "26-1",
+    "carId": "coche-4",
+    "empresaId": "empresa-1",
+    "fechaInicio": 1736380800000,
+    "horaIncio":10,
+    "fechaFin": 1736640000000,
+    "horaFin":21,
+    "estado": "reservado",
+    "notas": "Entregar deposito lleno"
+  }
+]
