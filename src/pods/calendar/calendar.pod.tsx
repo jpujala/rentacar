@@ -22,6 +22,14 @@ export function CalendarPod() {
   const [statusFilter, setStatusFilter] =
     useState<RentalStatus | 'todos'>('todos');
 
+  // Colores según el estado
+  const statusColors: Record<RentalStatus, string> = {
+    reservado: '#16a34a',
+    entregado: '#dc2626',
+    devuelto: '#9ca3af',
+    taller: '#eab308'
+  };
+
   function handleCreateRental(carId: string, date: number) {
     setSelectedRental(null);
     setSelectedDate(date);
@@ -73,12 +81,19 @@ export function CalendarPod() {
             )
           }
         >
-        <option value="todos">Todos los estados</option>
-        {RENTAL_STATUS_OPTIONS.map(option => (
-          <option key={option.value} value={option.value}>
-            {option.label}
-          </option>
-        ))}
+          <option value="todos">Todos los estados</option>
+          {RENTAL_STATUS_OPTIONS.map(option => (
+            <option
+              key={option.value}
+              value={option.value}
+              style={{
+                backgroundColor: statusColors[option.value],
+                color: '#fff'
+              }}
+            >
+              {option.label}
+            </option>
+          ))}
         </select>
       </div>
 
